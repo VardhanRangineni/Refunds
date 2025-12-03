@@ -147,16 +147,8 @@ const OrderDetails = () => {
                             <div className="d-flex justify-content-end">
                                 <div style={{ width: '300px' }}>
                                     <div className="d-flex justify-content-between mb-2 small text-muted">
-                                        <span>Total Amount Paid</span>
-                                        <span className="text-dark fw-medium">₹{currentOrder.pricing.total}</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between mb-2 small text-muted">
                                         <span>Refund Amount</span>
-                                        <span className="text-dark fw-medium">-₹{currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0).toFixed(2)}</span>
-                                    </div>
-                                    <div className="d-flex justify-content-between mt-2 pt-2 border-top small">
-                                        <span className="fw-bold text-dark">New Total Amount</span>
-                                        <span className="fw-bold text-dark">₹{(parseFloat(currentOrder.pricing.total) - currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0)).toFixed(2)}</span>
+                                        <span className="text-dark fw-medium">₹{currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0).toFixed(2)}</span>
                                     </div>
                                 </div>
                             </div>
