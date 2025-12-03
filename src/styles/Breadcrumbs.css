@@ -1,0 +1,20 @@
+.breadcrumbs {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.breadcrumbs span {
+    cursor: pointer;
+}
+
+.breadcrumbs span:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs .current {
+    color: #333;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+}

@@ -1,0 +1,336 @@
+.order-details-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.order-actions .text-btn {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.order-status-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.status-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #28a745;
+    font-weight: 500;
+}
+
+.status-right {
+    color: #666;
+    font-size: 12px;
+}
+
+.order-id-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.order-id {
+    font-weight: 500;
+}
+
+.order-links a {
+    margin-left: 15px;
+    color: #ed3237;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.product-table th {
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.product-table td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-img {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.pricing-summary {
+    width: 300px;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.summary-row.total {
+    border-top: 1px solid #eee;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-sections {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.info-block {
+    flex: 1;
+    font-size: 13px;
+    color: #555;
+}
+
+.info-block h3 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.order-details-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.order-actions .text-btn {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.order-status-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.status-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #28a745;
+    font-weight: 500;
+}
+
+.status-right {
+    color: #666;
+    font-size: 12px;
+}
+
+.order-id-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.order-id {
+    font-weight: 500;
+}
+
+.order-links a {
+    margin-left: 15px;
+    color: #ed3237;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.product-table th {
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.product-table td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-img {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.pricing-summary {
+    width: 300px;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.summary-row.total {
+    border-top: 1px solid #eee;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-sections {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.info-block {
+    flex: 1;
+    font-size: 13px;
+    color: #555;
+}
+
+.info-block h3 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.info-block p {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.info-block .name {
+    font-weight: 500;
+}
+
+.refund-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.refund-section h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.refund-table table {
+    margin-bottom: 0;
+}
+
+.refund-table th {
+    background-color: #fff5f5;
+    /* Light red background for refund table header */
+    color: #ed3237;
+}
