@@ -25,7 +25,9 @@ export const mockOrders = [
             serviceCharges: '+25.00',
             total: '427.93'
         },
-        refunds: []
+        refunds: [
+            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '1 Pack / 15 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', image: pantodacImg }
+        ]
     },
     {
         id: 'CPONMHY2412281048759',
