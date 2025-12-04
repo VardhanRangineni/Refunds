@@ -119,8 +119,8 @@ const OrderDetails = () => {
                                         <tr>
                                             <th className="ps-3 py-2 fw-normal">Product Name</th>
 
-                                            <th className="py-2 fw-normal">Ordered Qty</th>
-                                            <th className="py-2 fw-normal">Refunded Qty</th>
+                                            <th className="py-2 fw-normal">Ordered Qty (Packs / Units)</th>
+                                            <th className="py-2 fw-normal">Refunded Qty (Packs / Units)</th>
                                             <th className="text-end pe-3 py-2 fw-normal">Refund Amount</th>
                                         </tr>
                                     </thead>
@@ -147,7 +147,7 @@ const OrderDetails = () => {
                             <div className="d-flex justify-content-end">
                                 <div style={{ width: '300px' }}>
                                     <div className="d-flex justify-content-between mb-2 small text-muted">
-                                        <span>Refund Amount</span>
+                                        <span>Total Refund Amount</span>
                                         <span className="text-dark fw-medium">₹{currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0).toFixed(2)}</span>
                                     </div>
                                 </div>
