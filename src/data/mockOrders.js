@@ -26,7 +26,7 @@ export const mockOrders = [
             total: '427.93'
         },
         refunds: [
-            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '1 Pack / 15 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', image: pantodacImg }
+            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', image: pantodacImg }
         ]
     },
     {
@@ -36,7 +36,7 @@ export const mockOrders = [
         deliveredDate: 'Tue, Jan 02, 2025, 11:00',
         totalAmount: '1200.00',
         items: [
-            { name: 'Dolo 650', discountPrice: '30', mrp: '35.00', qty: '10 Packs', total: '300.00', image: doloImg },
+            { name: 'Dolo 650', discountPrice: '30', mrp: '35.00', qty: '5 Packs', total: '150.00', image: doloImg },
             { name: 'Vitamin C Supplements', discountPrice: '500', mrp: '600.00', qty: '2 Bottles', total: '1000.00', image: vitaminCImg }
         ],
         pricing: {
@@ -74,7 +74,7 @@ export const mockOrders = [
         deliveredDate: 'Sat, Jan 11, 2025, 12:00',
         totalAmount: '300.00',
         items: [
-            { name: 'Bandages', discountPrice: '100', mrp: '120.00', qty: '3 Packs', total: '300.00', image: bandageImg }
+            { name: 'Bandages', discountPrice: '100', mrp: '120.00', qty: '1 Packs', total: '100.00', image: bandageImg }
         ],
         pricing: {
             subTotal: '300.00',
@@ -94,7 +94,7 @@ export const mockOrders = [
         totalAmount: '2500.00',
         items: [
             { name: 'Glucometer', discountPrice: '1500', mrp: '2000.00', qty: '1 Unit', total: '1500.00', image: glucometerImg },
-            { name: 'Test Strips', discountPrice: '1000', mrp: '1200.00', qty: '2 Packs', total: '1000.00', image: testStripsImg }
+            { name: 'Test Strips', discountPrice: '1000', mrp: '1200.00', qty: '1 Pack', total: '1000.00', image: testStripsImg }
         ],
         pricing: {
             subTotal: '2500.00',
