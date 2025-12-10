@@ -25,8 +25,8 @@ export const mockOrders = [
             serviceCharges: '+25.00',
             total: '427.93'
         },
-        refunds: [
-            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', image: pantodacImg }
+        edit: [
+            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', approvedDate: '29 Dec, 2024', image: pantodacImg }
         ]
     },
     {
@@ -46,7 +46,10 @@ export const mockOrders = [
             total: '1200.00'
         },
         refunds: [
-            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', image: doloImg }
+            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025', image: doloImg }
+        ],
+        edit: [
+            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025', image: doloImg }
         ]
     },
     {
@@ -83,7 +86,7 @@ export const mockOrders = [
             total: '300.00'
         },
         refunds: [
-            { productName: 'Bandages', reason: 'Damaged during transit', orderedQty: '3 Packs', refundedQty: '2 Packs', refundAmount: '200.00', image: bandageImg }
+            { productName: 'Bandages', reason: 'Damaged during transit', orderedQty: '3 Packs', refundedQty: '2 Packs', refundAmount: '200.00', approvedDate: '12 Jan, 2025', image: bandageImg }
         ]
     },
     {
@@ -103,7 +106,7 @@ export const mockOrders = [
             total: '2500.00'
         },
         refunds: [
-            { productName: 'Test Strips', reason: 'Short Expiry', orderedQty: '2 Packs', refundedQty: '1 Pack', refundAmount: '500.00', image: testStripsImg }
+            { productName: 'Test Strips', reason: 'Short Expiry', orderedQty: '2 Packs', refundedQty: '1 Pack', refundAmount: '500.00', approvedDate: '17 Jan, 2025', image: testStripsImg }
         ]
     }
 ];
