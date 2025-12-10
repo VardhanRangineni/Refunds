@@ -26,7 +26,18 @@ export const mockOrders = [
             total: '427.93'
         },
         edit: [
-            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', approvedDate: '29 Dec, 2024', image: pantodacImg }
+            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '1 Pack / 15 Units', refundAmount: '142.70', approvedDate: '29 Dec, 2024 13:45:55', image: pantodacImg },
+            { productName: 'PANTODAC 40MG TABLET', reason: 'Out of Stock', orderedQty: '2 Pack / 30 Units', refundedQty: '2 Pack / 30 Units', refundAmount: '285.40', approvedDate: '29 Dec, 2024 13:45:55', image: pantodacImg }
+        ],
+        payments: [
+            {
+                transactionId: 'TXN1234567890',
+                date: 'Sat, Dec 28, 2024 10:48 PM',
+                mode: 'Cash on Delivery',
+                gateway: '-',
+                status: 'Pending',
+                amount: '427.93'
+            }
         ]
     },
     {
@@ -36,20 +47,38 @@ export const mockOrders = [
         deliveredDate: 'Tue, Jan 02, 2025, 11:00',
         totalAmount: '1200.00',
         items: [
-            { name: 'Dolo 650', discountPrice: '30', mrp: '35.00', qty: '5 Packs', total: '150.00', image: doloImg },
+            { name: 'Dolo 650', discountPrice: '30', mrp: '35.00', qty: '10 Packs', total: '300.00', image: doloImg },
             { name: 'Vitamin C Supplements', discountPrice: '500', mrp: '600.00', qty: '2 Bottles', total: '1000.00', image: vitaminCImg }
         ],
         pricing: {
-            subTotal: '1150.00',
+            subTotal: '1300.00',
             discount: '-0.00',
             serviceCharges: '+50.00',
             total: '1200.00'
         },
         refunds: [
-            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025', image: doloImg }
+            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025 12:45:17', image: doloImg }
         ],
         edit: [
-            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025', image: doloImg }
+            { productName: 'Dolo 650', reason: 'Out of Stock', orderedQty: '10 Packs', refundedQty: '5 Packs', refundAmount: '150.00', approvedDate: '03 Jan, 2025 12:45:17', image: doloImg }
+        ],
+        payments: [
+            {
+                transactionId: 'TXN0987654346',
+                date: 'Tue, Jan 02, 2025 04:40 PM',
+                mode: 'Credit Card',
+                gateway: 'Razorpay',
+                status: 'Refunded',
+                amount: '150.00'
+            },
+            {
+                transactionId: 'TXN0987654321',
+                date: 'Mon, Jan 01, 2025 09:30 AM',
+                mode: 'Credit Card',
+                gateway: 'Razorpay',
+                status: 'Success',
+                amount: '1200.00'
+            }
         ]
     },
     {
@@ -68,7 +97,17 @@ export const mockOrders = [
             serviceCharges: '0.00',
             total: '850.50'
         },
-        refunds: []
+        refunds: [],
+        payments: [
+            {
+                transactionId: 'TXN1122334455',
+                date: 'Wed, Jan 05, 2025 02:15 PM',
+                mode: '-',
+                gateway: '-',
+                status: 'Pending',
+                amount: '850.50'
+            }
+        ]
     }
     // {
     //     id: 'CPONMHY2412281048761',
