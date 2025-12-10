@@ -69,44 +69,44 @@ export const mockOrders = [
             total: '850.50'
         },
         refunds: []
-    },
-    {
-        id: 'CPONMHY2412281048761',
-        date: 'Fri, Jan 10, 2025 10:00 AM',
-        status: 'Delivered',
-        deliveredDate: 'Sat, Jan 11, 2025, 12:00',
-        totalAmount: '300.00',
-        items: [
-            { name: 'Bandages', discountPrice: '100', mrp: '120.00', qty: '1 Packs', total: '100.00', image: bandageImg }
-        ],
-        pricing: {
-            subTotal: '300.00',
-            discount: '0.00',
-            serviceCharges: '0.00',
-            total: '300.00'
-        },
-        refunds: [
-            { productName: 'Bandages', reason: 'Damaged during transit', orderedQty: '3 Packs', refundedQty: '2 Packs', refundAmount: '200.00', approvedDate: '12 Jan, 2025', image: bandageImg }
-        ]
-    },
-    {
-        id: 'CPONMHY2412281048762',
-        date: 'Sun, Jan 15, 2025 06:45 PM',
-        status: 'Delivered',
-        deliveredDate: 'Mon, Jan 16, 2025, 09:00',
-        totalAmount: '2500.00',
-        items: [
-            { name: 'Glucometer', discountPrice: '1500', mrp: '2000.00', qty: '1 Unit', total: '1500.00', image: glucometerImg },
-            { name: 'Test Strips', discountPrice: '1000', mrp: '1200.00', qty: '1 Pack', total: '1000.00', image: testStripsImg }
-        ],
-        pricing: {
-            subTotal: '2500.00',
-            discount: '0.00',
-            serviceCharges: '0.00',
-            total: '2500.00'
-        },
-        refunds: [
-            { productName: 'Test Strips', reason: 'Short Expiry', orderedQty: '2 Packs', refundedQty: '1 Pack', refundAmount: '500.00', approvedDate: '17 Jan, 2025', image: testStripsImg }
-        ]
     }
+    // {
+    //     id: 'CPONMHY2412281048761',
+    //     date: 'Fri, Jan 10, 2025 10:00 AM',
+    //     status: 'Delivered',
+    //     deliveredDate: 'Sat, Jan 11, 2025, 12:00',
+    //     totalAmount: '300.00',
+    //     items: [
+    //         { name: 'Bandages', discountPrice: '100', mrp: '120.00', qty: '1 Packs', total: '100.00', image: bandageImg }
+    //     ],
+    //     pricing: {
+    //         subTotal: '300.00',
+    //         discount: '0.00',
+    //         serviceCharges: '0.00',
+    //         total: '300.00'
+    //     },
+    //     refunds: [
+    //         { productName: 'Bandages', reason: 'Damaged during transit', orderedQty: '3 Packs', refundedQty: '2 Packs', refundAmount: '200.00', approvedDate: '12 Jan, 2025', image: bandageImg }
+    //     ]
+    // },
+    // {
+    //     id: 'CPONMHY2412281048762',
+    //     date: 'Sun, Jan 15, 2025 06:45 PM',
+    //     status: 'Delivered',
+    //     deliveredDate: 'Mon, Jan 16, 2025, 09:00',
+    //     totalAmount: '2500.00',
+    //     items: [
+    //         { name: 'Glucometer', discountPrice: '1500', mrp: '2000.00', qty: '1 Unit', total: '1500.00', image: glucometerImg },
+    //         { name: 'Test Strips', discountPrice: '1000', mrp: '1200.00', qty: '1 Pack', total: '1000.00', image: testStripsImg }
+    //     ],
+    //     pricing: {
+    //         subTotal: '2500.00',
+    //         discount: '0.00',
+    //         serviceCharges: '0.00',
+    //         total: '2500.00'
+    //     },
+    //     refunds: [
+    //         { productName: 'Test Strips', reason: 'Short Expiry', orderedQty: '2 Packs', refundedQty: '1 Pack', refundAmount: '500.00', approvedDate: '17 Jan, 2025', image: testStripsImg }
+    //     ]
+    // }
 ];
