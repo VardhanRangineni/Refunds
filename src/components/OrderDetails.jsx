@@ -109,52 +109,6 @@ const OrderDetails = () => {
                         </div>
                     </div>
 
-                    {/* Refund Section */}
-                    {currentOrder.refunds && currentOrder.refunds.length > 0 && (
-                        <div className="p-3 border-top">
-                            <h6 className="mb-3 text-dark">Refund Details</h6>
-                            <div className="table-responsive mb-3">
-                                <table className="table table-borderless align-middle mb-0">
-                                    <thead className="table-secondary small">
-                                        <tr>
-                                            <th className="ps-3 py-2 fw-normal">Product Name</th>
-
-                                            <th className="py-2 fw-normal">Ordered Qty (Packs / Units)</th>
-                                            <th className="py-2 fw-normal">Refunded Qty (Packs / Units)</th>
-                                            <th className="text-end pe-3 py-2 fw-normal">Refund Amount</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {currentOrder.refunds.map((refund, index) => (
-                                            <tr key={index} className="border-bottom">
-                                                <td className="ps-3 py-3">
-                                                    <div className="d-flex align-items-center gap-3">
-                                                        <img src={refund.image} alt={refund.productName} className="border rounded" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
-                                                        <span className="small text-dark">{refund.productName}</span>
-                                                    </div>
-                                                </td>
-
-                                                <td className="py-3 small text-muted">{refund.orderedQty}</td>
-                                                <td className="py-3 small text-muted">{refund.refundedQty}</td>
-                                                <td className="text-end pe-3 py-3 small fw-medium">₹{refund.refundAmount}</td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            {/* Refund Summary */}
-                            <div className="d-flex justify-content-end">
-                                <div style={{ width: '300px' }}>
-                                    <div className="d-flex justify-content-between mb-2 small text-muted">
-                                        <span>Total Refund Amount</span>
-                                        <span className="text-dark fw-medium">₹{currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0).toFixed(2)}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
                     {/* Edit Section */}
                     {currentOrder.edit && currentOrder.edit.length > 0 && (
                         <div className="p-3 border-top">
@@ -198,6 +152,52 @@ const OrderDetails = () => {
                                     </div>
                                 </div>
                             </div> */}
+                        </div>
+                    )}
+
+                    {/* Refund Section */}
+                    {currentOrder.refunds && currentOrder.refunds.length > 0 && (
+                        <div className="p-3 border-top">
+                            <h6 className="mb-3 text-dark">Refund Details</h6>
+                            <div className="table-responsive mb-3">
+                                <table className="table table-borderless align-middle mb-0">
+                                    <thead className="table-secondary small">
+                                        <tr>
+                                            <th className="ps-3 py-2 fw-normal">Product Name</th>
+
+                                            <th className="py-2 fw-normal">Ordered Qty (Packs / Units)</th>
+                                            <th className="py-2 fw-normal">Refunded Qty (Packs / Units)</th>
+                                            <th className="text-end pe-3 py-2 fw-normal">Refund Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {currentOrder.refunds.map((refund, index) => (
+                                            <tr key={index} className="border-bottom">
+                                                <td className="ps-3 py-3">
+                                                    <div className="d-flex align-items-center gap-3">
+                                                        <img src={refund.image} alt={refund.productName} className="border rounded" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+                                                        <span className="small text-dark">{refund.productName}</span>
+                                                    </div>
+                                                </td>
+
+                                                <td className="py-3 small text-muted">{refund.orderedQty}</td>
+                                                <td className="py-3 small text-muted">{refund.refundedQty}</td>
+                                                <td className="text-end pe-3 py-3 small fw-medium">₹{refund.refundAmount}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            {/* Refund Summary */}
+                            <div className="d-flex justify-content-end">
+                                <div style={{ width: '300px' }}>
+                                    <div className="d-flex justify-content-between mb-2 small text-muted">
+                                        <span>Total Refund Amount</span>
+                                        <span className="text-dark fw-medium">₹{currentOrder.refunds.reduce((acc, item) => acc + parseFloat(item.refundAmount), 0).toFixed(2)}</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     )}
 
